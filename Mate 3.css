@@ -1,0 +1,40 @@
+body{
+	background-image: url(https://media.lacapital.com.ar/p/e3769be0ae9d81c74759108cc6fad571/adjuntos/203/imagenes/018/763/0018763168/1200x675/smart/mas-08-02-68131721jpg.jpg) ;
+	color: floralwhite;
+}
+
+h1{
+	color: whitesmoke;
+font-size: 50x;
+
+  font-family: "Winky Rough", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+nav {
+    background-color: #2780F5;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around; /*Distribuye los elementos equitativamente */
+    padding: 0;
+}
+
+li {
+    margin: 0;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li:hover{
+  transition: 250ms;
+  background-color: #27F55E;
+}

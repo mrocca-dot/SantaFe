@@ -1,0 +1,40 @@
+body{
+	background-image: url(https://d1.capsf.ar/wp-content/uploads/sites/3/2022/09/santa-fe-logo.jpg);
+}
+
+h1{
+	color: orangered;
+font-size: 100px;
+p
+  font-family: "Roboto;", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+nav {
+    background-color: #2780F5;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around; /*Distribuye los elementos equitativamente */
+    padding: 0;
+}
+
+li {
+    margin: 0;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li:hover{
+  transition: 250ms;
+  background-color: #27F55E;
+}
